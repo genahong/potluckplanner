@@ -1,0 +1,104 @@
+#nav {
+	background-color: #91C8F7;
+	height: 70px;
+}
+
+#appName {
+	color: white;
+	letter-spacing: 4px;
+	padding-left: 30px;
+	font-weight: bold;
+}
+
+h2 {
+	padding-left: 28px;
+	padding-bottom: 10px;
+	letter-spacing: 4.1px;
+	font-size: 48px;
+}
+
+img {
+	padding-left: 10px;
+}
+
+#lorenzo {
+	margin-left: -10px;
+	/*float: left;*/
+}
+
+#time {
+	color: #91C8F7;
+	font-size: 20px;
+}
+
+#location {
+	font-size: 20px;
+	color: #9B9B9B;
+}
+
+aside {
+	float: right;
+	clear: both;
+	margin-left: -50px;
+}
+
+
+form {
+	padding-left: 30px;
+}
+
+
+
+#newTask {
+	color: #9B9B9B;
+	letter-spacing: 1px;
+	padding: 10px;
+}
+
+button {
+	margin-left: 10px;
+	background-color: #91C8F7;
+	border: none;
+	height: 60px;
+	color: white;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#add {
+	letter-spacing: 3px;
+}
+
+input {
+	width: 300px;
+	margin-bottom: 20px;
+	font-size: 24px;
+	/*box-shadow: inset 1px 1px 1px 0px #dddddd*/
+}
+
+li {
+	list-style: none;
+}
+
+ul {
+	font-size: 24px;
+
+}
+#checkbox {
+	width: 20px;
+	margin-bottom: -20px
+	margin-left: -100px;
+}
+
+span {
+	padding: 10px;
+}
+
+#edit {
+	padding: 5px;
+	cursor: pointer;
+}
+
+#delete {
+	padding: 5px;
+	cursor: pointer;
+}

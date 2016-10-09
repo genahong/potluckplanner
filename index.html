@@ -1,0 +1,63 @@
+<!DOCTYPE html> 
+
+<html> 
+	<head> 
+		<meta charset = "UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title> POTLUCK PLANNER </title>
+		
+		<link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+		<link rel = "stylesheet" href = "main.css" media = "screen" type = "text/css"> 
+	</head>
+
+
+	<body>
+
+		<div id = "nav" class = "navbar navbar-default">
+			<a id ="appName" class = "navbar-brand" href="#"> POTLUCK <br> PLANNER </a>
+		</div>	
+
+
+		<h2> FRIENDSGIVING </h2> 
+
+		<img src = "lorenzo image.png" id = "lorenzo" alt = "photo of people having dinner"> 
+
+		<aside>
+			<p id = "time"> 7:00pm on November 23, 2016 </p>
+			<p id = "location"> 5701 Centre Ave, <br> Pittsburgh, PA 15206 </p>
+		</aside>
+
+		<hr> 
+
+		<h2> GUESTS </h2>
+
+		<img src = "Tamira.png" id = "photo" alt = "alice"> 
+		<img src = "Alice.png" id = "photo" alt = "tamara">
+		<img src = "Marie.png" id = "photo" alt = "marie">
+
+		<hr>
+
+		<h2> CHECKLIST </h2>
+
+
+		<main> 
+			<form id = "newEntries"> 
+				<input type = "text" id = "newTask" name = "newTask" value = "Add a new task...">
+				<button type = "button" id = "add"> ADD </button>
+		</form>
+
+		</main>
+
+		<!-- new tasks will be added to this currently empty -->
+		<li id = "tasks"> </li>
+
+	</body>
+
+
+<script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"> </script>
+<script src = "main.js" type = "text/javascript"> </script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+</html>
